@@ -504,7 +504,7 @@ local function createGui()
         local success, errorMsg = pcall(function()
             game:GetService("StarterGui"):SetCore("SendNotification", {
                 Title = "Easy Aim!",
-                Text = "Loaded! Have fun aiming!",
+                Text = "Loaded! Supports all FPS Games! (made by enqryptedd)",
                 Duration = 5
             })
         end)
